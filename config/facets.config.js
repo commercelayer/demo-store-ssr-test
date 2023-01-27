@@ -22,6 +22,13 @@ const facetsConfig = [
     appearance: 'switch',
   },
   {
+    field: 'color',
+    appearance: 'colorSwatch',
+    sortOrder: [
+      { pattern: /.*/, sort: values => values.sort() }
+    ]
+  },
+  {
     field: 'brand',
     appearance: 'tag',
     sortOrder: [
