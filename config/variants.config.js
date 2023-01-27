@@ -3,8 +3,8 @@
 /** @type { import('@commercelayer/demo-store-types').VariantConfig[] } */
 const variantsConfig = [
   {
-    field: 'flavor',
-    appearance: 'tag'
+    field: 'colorsrc',
+    appearance: 'colorSwatch'
   },
   {
     field: 'size',
