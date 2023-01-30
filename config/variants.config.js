@@ -7,6 +7,10 @@ const variantsConfig = [
     appearance: 'colorSwatch'
   },
   {
+    field: 'flavor',
+    appearance: 'tag'
+  },
+  {
     field: 'size',
     appearance: 'tag'
   },
