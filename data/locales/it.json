@@ -20,6 +20,7 @@
   "search": {
     "variants": {
       "color": "Colori",
+      "colorsrc": "Colori",
       "flavor": "Sapori",
       "size": "Seleziona la taglia"
     },
