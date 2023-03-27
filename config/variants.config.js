@@ -14,6 +14,14 @@ const variantsConfig = [
     field: 'size',
     appearance: 'tag'
   },
+  {
+    field: 'date',
+    appearance: 'tag'
+  },
+  {
+    field: 'city',
+    appearance: 'tag'
+  }  
 ]
 
 module.exports = variantsConfig

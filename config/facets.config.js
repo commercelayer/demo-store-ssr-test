@@ -71,7 +71,14 @@ const facetsConfig = [
       },
       { pattern: /.*/ },
     ]
-  }
+  },
+  {
+    field: 'city',
+    appearance: 'tag',
+    sortOrder: [
+      { pattern: /.*/, sort: values => values.sort()}
+    ]
+  },
 ]
 
 module.exports = facetsConfig
